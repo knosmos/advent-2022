@@ -1,0 +1,1 @@
+print(sum(sorted(map(eval,"+".join(open("1").read().split("\n")).split("++")))[-3:]))
